@@ -38,7 +38,7 @@ ORDER BY season;
 ```
 ![image](https://github.com/dijalvincent/BigQuery/assets/154268649/d637ac22-cf38-4e9a-b8ad-faca59032f6f)
 
-6.Find the most common mascot names across all teams ?
+6.Identify the frequently used names for mascots across all teams ?
 ```SQL
 SELECT mascot, COUNT(*) AS team_count
 FROM `bigquery-public-data.ncaa_basketball.mascots`
@@ -81,7 +81,7 @@ GROUP BY
 ```
 ![image](https://github.com/dijalvincent/BigQuery/assets/154268649/ff7e5842-ba79-47af-8801-6e3a7f5f3236)
 
-10. Find the list of products purchased by each user?
+10. What products did each user buy?
  ```SQL
    SELECT
   users.id,
