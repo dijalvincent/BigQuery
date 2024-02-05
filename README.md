@@ -1,4 +1,4 @@
-1.Present a compilation of product names along with their respective prices?
+1.Present a compilation of product names along with their respective prices
 ```SQL
 SELECT name,retail_price price
 FROM `bigquery-public-data.thelook_ecommerce.products`;
@@ -6,7 +6,7 @@ FROM `bigquery-public-data.thelook_ecommerce.products`;
 
 ![image](https://github.com/dijalvincent/BigQuery/assets/154268649/7e6a45bc-93b2-412f-b558-1357b7353e51)
 
-2.Determine the total count of orders?
+2.Determine the total count of orders
 ```SQL
 SELECT COUNT(*) AS total_orders
 FROM `bigquery-public-data.thelook_ecommerce.orders`;
@@ -47,14 +47,14 @@ ORDER BY team_count DESC;
 ```
 ![image](https://github.com/dijalvincent/BigQuery/assets/154268649/955eabda-8fc1-4677-87e8-fca077cf627b)
 
-7.Count the total number of games played?
+7.Count the total number of games played
 ```SQL
 SELECT COUNT(*) AS TOTAL_GAMES
 FROM `bigquery-public-data.ncaa_basketball.mbb_games_sr`
 ```
 ![image](https://github.com/dijalvincent/BigQuery/assets/154268649/11491026-1bc7-4f8c-b330-6a26d30ce2f6)
 
- 8.	Provide the names of all teams along with their associated mascots?
+ 8.	Provide the names of all teams along with their associated mascots
 ```SQL
 SELECT m.name AS team_name, ma.name AS mascot_name
 FROM `bigquery-public-data.ncaa_basketball.mbb_teams` AS m
